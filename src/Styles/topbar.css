@@ -1,0 +1,109 @@
+.topbar {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+.topbar .logoSection {
+    width: 15%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(179.88deg, #011B53 -143.82%, #063DB5 226.52%);
+
+}
+
+.topbar .logoSection>h1 {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.logoSection button {
+    position: absolute;
+    left: 12%;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.notIcon{
+    position: absolute;
+    top : 18px;
+    right: 270px;
+    color: #063DB5;
+}
+#dropDown {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+#dropDown>img {
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+
+#name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+#nameMain {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 2%;
+    margin: 10px 5px 0;
+}
+
+#dev {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 2%;
+    color: #464353;
+    margin: 5px 5px 0;
+
+}
+
+
+#menu {
+    position: absolute;
+    background-color: #011B53;
+    top: 35px;
+    right: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 2;
+}
+
+.dropDownItem {
+    font-size: 11px;
+    margin-bottom: 7px;
+    color: white;
+    border-bottom: 1px solid white;
+    text-align: center;
+    display: inline-block;
+}

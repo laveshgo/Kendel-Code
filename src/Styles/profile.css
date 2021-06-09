@@ -1,0 +1,12 @@
+.profileRoute {
+    position: absolute;
+    right: 40%;
+    top : 20%;
+    text-align: center;
+    color : #011B53;
+    font-weight: 900;
+}
+.profileRoute > img{
+    width: 200px;
+    margin: 20px;
+}

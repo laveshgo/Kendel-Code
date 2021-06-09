@@ -1,0 +1,66 @@
+.navbar {
+    position: fixed;
+    width: 15%;
+    height: 100vh;
+    background-color: #fff;
+    border-top: 1px inset #BDC3C7;
+
+    color: white;
+}
+
+.navbar .container {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 15%;
+    background: linear-gradient(179.88deg, #011B53 -143.82%, #063DB5 226.52%);
+    padding: 20px 0 0;
+
+}
+
+.navbar .container hr {
+    border: 0;
+    height: 0.5px;
+    background: #C3E1FF;
+}
+
+.navbar .container p {
+
+    margin-left: 20px;
+}
+
+ul {
+    width: 100%;
+    padding: 0;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+    height: 40px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: left;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
+}
+
+li:hover {
+    background: #011B53;
+}
+
+.liText {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    padding-left: 10px;
+    color: #FFFAF0;
+}
+
+.icon {
+    margin: auto 10px;
+}

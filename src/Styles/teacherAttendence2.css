@@ -1,0 +1,8 @@
+.teaAtt{
+    position: absolute;
+    right: 20%;
+    top : 10%;
+    width: 900px;
+    height: 600px;
+    border: 2px solid black;
+}

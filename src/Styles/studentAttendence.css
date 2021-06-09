@@ -1,0 +1,38 @@
+hr{
+    border : 0;
+    height: 0.5px;
+    background: #011B53;
+}
+.main-div{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    top : 20%;
+    right : 20%;
+    box-shadow: 0 0 20px #c8c2bc;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+.main-div>h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2B3D5E;
+    letter-spacing: 0.04em;
+    margin: 20px 30px;
+}
+.main-div>p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    color: #2B3D5E;
+    margin: 20px 30%;
+}
+.btn {
+    width: 200px;
+    margin: 20px 300px;
+}
